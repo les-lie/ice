@@ -10,7 +10,7 @@ gem 'jquery-rails', '~> 4.0.0.beta2'
 gem 'turbolinks'
 gem 'unicorn', '~> 4.8.3'
 gem 'jbuilder', '~> 2.0'
-
+gem 'arel', '6.0.0.beta2'
 gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   
@@ -22,5 +22,5 @@ group :development, :test do
 end
 
 group :production do
-  gem 'pg'
+  gem 'pg', '~> 0.18.1'
 end
